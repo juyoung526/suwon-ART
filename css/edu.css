@@ -1,0 +1,233 @@
+/* header - white */
+header h1 img {
+    filter: invert(0%) !important;
+}
+
+header div .menu {
+    border-color: #222;
+}
+
+header div .menu li a {
+    color: #222;
+}
+
+header div .menu li a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* header div .login {
+    border: 2px solid #222;
+} */
+
+body {
+    background-image: linear-gradient(to right, #fff, #222);
+}
+
+/* container */
+.eduBox {
+    padding-top: 200px;
+}
+
+.edu-container {
+    margin: 50px;
+    overflow-x: hidden;
+}
+
+.edu-container .wave {
+    font-size: 50px;
+    font-family: 'TTLaundryGothicB';
+    margin-top: 50px;
+}
+
+.wave span {
+    position: relative;
+    animation: wave 1.5s linear 2;
+}
+
+@keyframes wave {
+    0% {
+        top: 0;
+    }
+
+    20% {
+        top: -10px
+    }
+
+    40% {
+        top: 0;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.wave span:nth-of-type(1) {
+    animation-delay: .1s;
+}
+
+.wave span:nth-of-type(2) {
+    animation-delay: .2s;
+}
+
+.wave span:nth-of-type(3) {
+    animation-delay: .3s;
+}
+
+.wave span:nth-of-type(4) {
+    animation-delay: .4s;
+}
+
+.imgSlide {
+    width: 200%;
+    height: 350px;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.imgSlide li:hover {
+    border-radius: 250px 250px 0px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.imgSlide img {
+    width: 595px;
+}
+
+.textSlide {
+    width: 1000%;
+    display: flex;
+}
+
+.textSlide li {
+    width: 595px;
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.textSlide li p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* color */
+.textSlide h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSlide h4 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 5px;
+}
+
+.textSlide .bk {
+    background-color: #222;
+}
+
+.textSlide .or {
+    background-color: orangered;
+}
+
+.textSlide .pu {
+    background-color: purple;
+}
+
+.textSlide .gr {
+    background-color: rgb(47, 128, 128);
+}
+
+/* animation */
+/* width:595 * 8 */
+.slides1 {
+    width: calc(595px * 8);
+    animation: slide1 30s linear infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* width:595 * 5 */
+.slides2 {
+    width: calc(595px * 5);
+    animation: slide2 30s linear infinite;
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* width:595 * 7 */
+.slides3 {
+    width: calc(595px * 7);
+    animation: slide3 30s linear infinite;
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* width:595 * 7 */
+.slides4 {
+    width: calc(595px * 7);
+    animation: slide4 30s linear infinite;
+}
+
+@keyframes slide4 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.buttonBox {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonBox p {
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 35px;
+}

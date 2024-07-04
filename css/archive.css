@@ -1,0 +1,113 @@
+/* leftBar */
+.arc_container {
+    height: 100vh;
+    background-color: #222;
+    padding: 100px 0px;
+    font-family: 'TTLaundryGothicB';
+}
+
+.arc_container .slideFiv {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.arc_container img {
+    width: 300px;
+    filter: grayscale(100%);
+}
+
+.arc_container img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+li p {
+    margin: 10px 0px;
+}
+
+.slideFiv li {
+    width: 300px;
+    margin: 0px 30px;
+    border-top: 3px solid #fff;
+    color: #fff;
+    padding: 50px 0px;
+    /* background: green; */
+}
+
+/* --------------------------------------------up1 */
+.slideFiv .up1 {
+    animation: up1 40s linear infinite;
+}
+
+@keyframes up1 {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-2638px);
+    }
+}
+
+/* --------------------------------------------down1 */
+.slideFiv .down1 {
+    animation: down1 40s linear infinite;
+}
+
+@keyframes down1 {
+    0% {
+        transform: translateY(-3147px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* --------------------------------------------up2 */
+.slideFiv .up2 {
+    animation: up2 40s linear infinite;
+}
+
+@keyframes up2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-3636px);
+    }
+}
+
+/* --------------------------------------------down2 */
+.slideFiv .down2 {
+    animation: down2 40s linear infinite;
+}
+
+@keyframes down2 {
+    0% {
+        transform: translateY(-2689px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* --------------------------------------------up3 */
+.slideFiv .up3 {
+    animation: up3 40s linear infinite;
+}
+
+@keyframes up3 {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-2664px);
+    }
+}

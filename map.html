@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suwon_map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwon Museum Of Art</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/map.css">
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="index.html"><img src="img/logo_1.png" alt="로고"></a></h1>
+            <ul class="menu">
+                <li>
+                    <a href="education.html">교육</a>
+                </li>
+                <li>
+                    <a href="archive.html">아카이브</a>
+                    <ul class="sub">
+                        <li><a href="archive.html#collection">소장품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html">소식</a>
+                    <ul class="sub">
+                        <li><a href="news.html">보도자료</a></li>
+                        <li><a href="new.html">Q & A</a></li>
+                    </ul>
+                </li>
+                <li class="arrow">
+                    <a href="map.html">오시는 길</a>
+                    <ul class="sub">
+                        <li><a href="map.html">위치</a></li>
+                        <li><a href="map.html#museums">미술관소개</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="login">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="hiddenHeader">
+        <h1><a href="index.html"><img src="img/logo_1.png"></a></h1>
+        <ul id="hember">
+            <li id="top" class="topActio"></li>
+            <li id="middle" class="midActio"></li>
+            <li id="bottom" class="botActio"></li>
+        </ul>
+    </div>
+    <div id="hiddenMenu">
+        <div class="MenuBox">
+            <ul>
+                <li><a href="education.html">교육</a></li>
+                <li><a href="archive.html">아카이브</a></li>
+                <li><a href="news.html">소식</a></li>
+                <li><a href="map.html">오시는 길</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="textMapWrap">
+        <ul id="logoBtn">
+            <li><img src="img2/footer_011.png" alt="수원시립미술관로고"></li>
+            <li class="man"><img src="img2/footer_022.png" alt="수원시립만석전시관로고"></li>
+            <li><img src="img2/footer_033.png" alt="수원시립아트스페이스로고"></li>
+            <li><img src="img2/footer_044.png" alt="수원시립북수원전시관로고"></li>
+        </ul>
+        <div class="mapWrap on">
+            <div class="main-map on">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.5244204371143!2d127.01318287633286!3d37.28270314035197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b4334fd2d1805%3A0x975626f643bd4578!2z6rK96riw64-EIOyImOybkOyLnCDtjJTri6zqtawg7Iug7ZKN64-ZIDIzOC0x!5e0!3m2!1sko!2skr!4v1719906852919!5m2!1sko!2skr"></iframe>
+                <p>경기도 수원시 팔달구 정조로 833 (신풍동 238-1)</p>
+
+            </div>
+            <div class="manseok-map">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.9195640618364!2d126.99754337582189!3d37.29704013953564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5cd6fea25fc7%3A0x6982c7688194842a!2z6rK96riw64-EIOyImOybkOyLnCDsnqXslYjqtawg7Iah7KCV66GcIDE5IDQxNyAyNA!5e0!3m2!1sko!2skr!4v1719899843321!5m2!1sko!2skr"></iframe>
+                <p>경기도 수원시 장안구 송정로 19 (송죽동 417-24)</p>
+            </div>
+            <div class="artspace-map">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.3932015860955!2d127.05696117582137!3d37.285813840175486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5bf02a41fe89%3A0x25839c89f9f29081!2z7IiY7JuQ7Luo67Kk7IWY7IS87YSw!5e0!3m2!1sko!2skr!4v1719899994663!5m2!1sko!2skr"></iframe>
+                <p>경기도 수원시 영통구 광교중앙로 140 (하동 864-10) 수원컨벤션센터 지하 1층</p>
+            </div>
+            <div class="buk-map">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.7306452720163!2d126.98442827582299!3d37.32520753792961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5d0582cafef1%3A0x4b724622b9563e3e!2z7Zqo7ZaJ6rO17JuQ!5e0!3m2!1sko!2skr!4v1719899930607!5m2!1sko!2skr"></iframe>
+                <p>경기도 수원시 장안구 경수대로 1274 (파장동 39-6) 효행공원 내</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerWrap">
+            <div class="address">
+                <p>(16252)경기도 수원시 팔달구 정조로 833 (신풍동)</p>
+                <p>TEL : 031-228-3800</p>
+                <p>Copyright ⓒ 2019 SUWON OF ART RIGHTS RESERVED</p>
+
+            </div>
+            <ul class="sns">
+                <li>
+                    <a href="#">
+                        <img src="img/btn_icon_08.png" alt="페이스북"></a>
+                    <a href="#">
+                        <img src="img/btn_icon_10.png" alt="인스타그램"></a>
+                    <a href="#">
+                        <img src="img/btn_icon_09.png" alt="유투브"></a>
+                </li>
+                <li>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/hidden.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 img {
+    width: 200px;
+}
+
+.loginBox {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.loginBox .log {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginBox form {
+    margin: 40px 0px 10px;
+}
+
+.loginBox form input {
+    width: 100%;
+    height: 30px;
+    margin: 2px auto;
+}
+
+.loginBox .keep div {
+    display: flex;
+    align-items: center;
+}
+
+.keep div i {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.keep div i.on {
+    background: #222;
+    color: #fff;
+}
+
+.loginBox button {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border-color: #fff;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    width: 300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    font-size: 14px;
+    cursor: pointer;
+}
