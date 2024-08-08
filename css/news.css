@@ -1,100 +1,101 @@
 /* header - white */
 header h1 img {
-    filter: invert(0%) !important;
+  filter: invert(0%) !important;
 }
 
 header div .menu {
-    border-color: #222;
+  border-color: #222;
 }
 
 header div .menu li a {
-    color: #222;
+  color: #222;
 }
 
 header div .menu li a:hover {
-    background-color: #222;
-    color: #fff;
+  background-color: #222;
+  color: #fff;
 }
 
 header div .login {
-    /* border: 2px solid #222; */
-    color: #222;
+  /* border: 2px solid #222; */
+  color: #222;
 }
 
 /* artLogoBox */
 .artLogoBox {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .logoWrap {
-    text-align: center;
-    margin: 200px 0px 0px;
+  text-align: center;
+  margin: 200px 0px 0px;
 }
 
 .logoWrap img {
-    height: 45px;
-    margin: 0px 50px;
-    position: relative;
-    top: 50px;
-    opacity: 0;
-    cursor: pointer;
+  height: 45px;
+  margin: 0px 50px;
+  position: relative;
+  top: 50px;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .artLogoBox img:nth-child(1) {
-    transition: 1s;
+  transition: 1s;
 }
 
 .artLogoBox img:nth-child(2) {
-    transition: 2s;
+  transition: 2s;
 }
 
 .artLogoBox img:nth-child(3) {
-    transition: 3s;
+  transition: 3s;
 }
 
 .artLogoBox img:nth-child(4) {
-    transition: 4s;
+  transition: 4s;
 }
 
 /* newsBox */
-
-
-
+.newsBox {
+  height: 60vh;
+  /* background-color: blue; */
+}
 .new-s {
-    width: 50%;
-    height: 50px;
-    position: relative;
-    top: 100px;
-    margin: 0px auto;
-    border-radius: 70px;
-    box-sizing: border-box;
-    padding: 0px 50px;
-    /* background-image: url(../img/new_bg01.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 50%;
+  height: 50px;
+  position: relative;
+  top: 100px;
+  margin: 0px auto;
+  border-radius: 70px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+  /* background-image: url(../img/new_bg01.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .backImgBox {
-    position: absolute;
-    top: -50px;
+  position: absolute;
+  top: -50px;
 }
 
 .backImgBox li {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 2px solid #222; */
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid #222; */
 }
 
 .backImgBox li div {
-    width: 40%;
+  width: 40%;
 }
 
 .backImgBox li div h4 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
 }

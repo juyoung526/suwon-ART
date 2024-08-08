@@ -55,7 +55,6 @@ let textReturn = () => {
 };
 
 const mediaQuery = window.matchMedia("(min-width:1200px)");
-console.log(mediaQuery);
 function HandleQuery(e) {
   if (e.matches) {
     window.addEventListener("scroll", () => {
@@ -106,7 +105,7 @@ function HandleQuery(e) {
       if (scrollY > 7300) {
         jul.style.position = "fixed";
         jul.style.top = "65%";
-        jul.style.left = "10%";
+        jul.style.right = "16%";
       }
       if (scrollY > 8200) {
         julArrow.style.opacity = "1";
@@ -116,13 +115,13 @@ function HandleQuery(e) {
         jul.style.opacity = "0";
         jul.style.transition = "0.5s";
       }
-      if (scrollY > 7850 && scrollY < 15000) {
+      if (scrollY > 7750 && scrollY < 15000) {
         slideWrap.style.position = "fixed";
-        slideWrap.style.top = "90px";
+        slideWrap.style.top = "350px";
       } else {
         slideWrap.style.position = "relative";
       }
-      if (scrollY > 9000 && scrollY < 10000) {
+      if (scrollY > 8500 && scrollY < 9500) {
         up1.style.top = "80%";
         up1.style.opacity = "1";
         up1.style.position = "fixed";
@@ -132,8 +131,8 @@ function HandleQuery(e) {
         upT1.style.top = "80%";
         upT1.style.opacity = "1";
         upT1.style.position = "fixed";
-        // upT1.style.right = "15%";
-        // upT1.style.transform = "translateX(-50%)";
+        upT1.style.right = "15%";
+        upT1.style.transform = "translateX(-50%)";
       } else {
         up1.style.opacity = "0";
         up1.style.transition = "0";
@@ -152,8 +151,8 @@ function HandleQuery(e) {
         upT2.style.opacity = "1";
         upT2.style.position = "fixed";
         upT2.style.right = "15%";
-        // upT2.style.marginTop = "20px";
-        // upT2.style.transform = "translateX(-50%)";
+        upT2.style.marginTop = "20px";
+        upT2.style.transform = "translateX(-50%)";
       } else {
         up2.style.opacity = "0";
         up2.style.transition = "0";
@@ -171,8 +170,8 @@ function HandleQuery(e) {
         upT3.style.top = "80%";
         upT3.style.opacity = "1";
         upT3.style.position = "fixed";
-        // upT3.style.right = "15%";
-        // upT3.style.transform = "translateX(-50%)";
+        upT3.style.right = "15%";
+        upT3.style.transform = "translateX(-50%)";
       } else {
         up3.style.opacity = "0";
         up3.style.transition = "0";
@@ -184,19 +183,17 @@ function HandleQuery(e) {
 
     //가로 스크롤
     window.addEventListener("scroll", function () {
-      if (window.innerWidth >= 1200) {
-        let trX = (-1 / 18) * this.window.scrollY + 1000 / 18;
-        // console.log(trX, "가로")
+      let trX = (-1 / 18) * this.window.scrollY + 1000 / 18;
+      // console.log(trX, "가로")
 
-        if (trX < -130) {
-          this.document.querySelector(
-            ".innerScroll"
-          ).style.transform = `translateX(-130vw)`;
-        } else if (trX < 0) {
-          document.querySelector(
-            ".innerScroll"
-          ).style.transform = `translateX(${trX}vw)`;
-        }
+      if (trX < -130) {
+        this.document.querySelector(
+          ".innerScroll"
+        ).style.transform = `translateX(-130vw)`;
+      } else if (trX < 0) {
+        document.querySelector(
+          ".innerScroll"
+        ).style.transform = `translateX(${trX}vw)`;
       }
     });
 
